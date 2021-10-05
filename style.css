@@ -1,0 +1,322 @@
+#main-banner .title-container h1, #main-banner .title-container h2 {
+  text-shadow: 3px 2px #000;
+}
+
+.jobs-container h2, .container h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.6rem;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transistion: 0.3s;
+  color: #fff;
+}
+.btn:hover {
+  border-color: #ff5200;
+  color: #ff5200;
+}
+.btn-primary {
+  background-color: #ff5200;
+  border-color: #ff5200;
+}
+.btn-primary:hover {
+  background-color: transparent;
+}
+.btn-rounded {
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#main-banner {
+  background-position: center;
+}
+#main-banner .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+#main-banner .nav-container .brand {
+  color: #181920;
+  font-size: 2rem;
+  transistion: 0.3s;
+}
+#main-banner .nav-container .brand:hover {
+  color: #ff5200;
+}
+#main-banner .nav-container .brand img {
+  height: 10rem;
+  margin: 0;
+  padding: 0;
+}
+#main-banner .nav-container-navbar {
+  display: flex;
+  align-item: center;
+  height: 100%;
+}
+#main-banner .nav-container-navbar li {
+  margin: 5px 10px;
+}
+#main-banner .nav-container-navbar li a {
+  color: #181920;
+  transistion: 0.3s;
+}
+#main-banner .nav-container-navbar li a:hover {
+  color: #ff5200;
+}
+#main-banner .nav-container .fas.fa-bars {
+  font-size: 2rem;
+  color: #fff;
+  display: none;
+}
+#main-banner .title-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#main-banner .title-container h2 {
+  font-size: 3rem;
+}
+#main-banner .title-container h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.container .render-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.container .render-menu-container .render {
+  width: 60%;
+  margin: 1%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  transistion: 0.3s;
+}
+.container .render-menu-container .render i {
+  color: #ff5200;
+  font-size: 4rem;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.container .render-menu-container .render h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.container .render-menu-container .render p {
+  color: #888e94;
+}
+.container .render-menu-container .render:hover {
+  border: transparent;
+  box-shadow: 0 1px 10px #ccc;
+}
+.container .render-menu-container .menu {
+  width: 30%;
+  margin: 1%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  transistion: 0.3s;
+}
+.container .render-menu-container .menu-element {
+  border: 1px solid #454545;
+  margin: 20px;
+  padding: 15px;
+}
+.container .render-menu-container .menu-element select {
+  width: 80%;
+  padding: 5px;
+  text-size: 1rem;
+}
+.container .render-menu-container .menu i {
+  color: #ff5200;
+  font-size: 4rem;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.container .render-menu-container .menu h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.container .render-menu-container .menu p {
+  color: #888e94;
+}
+.container .render-menu-container .menu:hover {
+  border: transparent;
+  box-shadow: 0 1px 10px #ccc;
+}
+
+.jobs-container {
+  background-color: #e5eaff;
+  padding: 3rem;
+}
+.jobs-container .jobs-list {
+  display: flex;
+  padding: 2rem 0;
+}
+.jobs-container .jobs-list .first-job {
+  width: 30%;
+  height: 415px;
+  position: relative;
+  cursor: pointer;
+  transistion: 0.5s;
+}
+
+footer {
+  background-color: #1d1d1d;
+  color: #888e94;
+  padding: 5rem 2rem;
+}
+footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-container .footer-title {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+footer .footer-desc-container, footer .footer-links-container {
+  width: 50%;
+}
+footer .footer-desc-container p {
+  width: 80%;
+  line-weight: 1.3;
+}
+footer .footer-links-container {
+  display: flex;
+}
+footer .footer-links-container-list {
+  padding: 0 1rem;
+}
+footer .footer-links-container-list li {
+  margin-bottom: 0.5rem;
+}
+footer .footer-links-container-list li a {
+  color: #888e94;
+  transition: 0.5s;
+}
+footer .footer-links-container-list li a:hover {
+  color: #fff;
+}
+footer .footer-copy-right-contianer {
+  width: 100%;
+  margin-top: 3rem;
+}
+footer .footer-copy-right-contianer p {
+  margin-bottom: 1rem;
+}
+
+.rug-customizer {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rug-customizer-container {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 425px) {
+  .rug-customizer-container {
+    min-height: 300px;
+  }
+}
+.rug-customizer-container .renderCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+.rug-customizer-container .loadingscreen {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.rug-customizer-container .loadingscreen-logo-tidelli {
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  .rug-customizer-container .loadingscreen-logo-tidelli {
+    width: 60%;
+  }
+}
+.rug-customizer-container .loadingscreen-loader {
+  width: 100%;
+  height: 20px;
+  background-color: #f0ebeb;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 425px) {
+  .rug-customizer-container .loadingscreen-loader {
+    width: 60%;
+    height: 10px;
+  }
+}
+.rug-customizer-container .loadingscreen-loader-loading {
+  margin: 0;
+  padding: 0;
+  background-color: #2b2b2b;
+  border: none;
+  width: 0;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
